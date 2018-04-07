@@ -30,6 +30,9 @@ public class Esempio {
 		System.out.println();
 		System.out.println("Negozio con il primo codice: " + casaMadre.negozio(nA));
 		
+		System.out.println();
+		System.out.println("Negozio piu grande: " + casaMadre.negozioPiuGrande());
+		
 		int pX = casaMadre.aggiungiArticolo("Vinter 2017", "Illuminazione decorativa a LED a batterie", 6.99);
 		casaMadre.aggiungiArticolo("Fejka", "Pianta artificiale interno/esterno albero di Natale", 49.99);
 		
